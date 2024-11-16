@@ -1,3 +1,8 @@
+const emotionRadios = document.getElementById('emotion-radios')
+
+
+
+
 const catsData = [
     {
         emotionTags: ["moody"],
@@ -170,16 +175,25 @@ const catsData = [
 ]
 
 function getEmotionsArray(cats){
+    const emotionsArray= []
     for (let cat of cats){
-        console.log(cat)
+        for (let emotions of cat.emotionTags){
+        }
     }
-/*
-Challenge:
-1. Set up a "for of" in getEmotionsArray to iterate 
-   over the data.
-2. For now, just log out each cat object individually.
-*/
+    return emotionsArray
 }
 
-getEmotionsArray(catsData)
 
+
+function renderEmotionsRadios(cats){
+    
+    let radioItems = ``
+    const emotions = getEmotionsArray(cats)
+    for (let emotion of emotions){
+        radioItems+=` <p>${radioItems}</p>`
+    }
+    emotionRadios.innerHTML = radioItems
+    
+}
+
+renderEmotionsRadios(catsData)
