@@ -27,7 +27,6 @@ function renderEmotionsRadios(cats){
          <input type="radio" id=${emotion} value=${emotion} name="emotions">
     </div>
 `
-        
     }
     emotionRadios.innerHTML = radioItems
     
