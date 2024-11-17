@@ -42,4 +42,5 @@ function renderEmotionsRadios(cats){
 
 
 
+
 renderEmotionsRadios(catsData)
