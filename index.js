@@ -6,11 +6,13 @@ emotionRadios.addEventListener('change', changeRadioColor)
 
 function changeRadioColor(e){
     
-    document.getElementById(e.target.id).parentElement.classList.add('highlight')
+    
     const radios = document.getElementsByClassName('radio')
     for (let radio of radios ){
         radio.classList.remove('highlight')
     }
+    
+    document.getElementById(e.target.id).parentElement.classList.add('highlight')
 }
 
 
