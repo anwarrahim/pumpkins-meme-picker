@@ -1,8 +1,18 @@
 import {catsData} from '/data.js'
 
 const emotionRadios = document.getElementById('emotion-radios')
+const getImageBtn = document.getElementById('get-image-btn')
+const gifsOnlyOption = document.getElementById('gifs-only-option')
+
+
 
 emotionRadios.addEventListener('change', changeRadioColor)
+getImageBtn.addEventListener("click", getMatchingCatsArray)
+
+
+
+
+
 
 function changeRadioColor(e){
     
@@ -13,6 +23,16 @@ function changeRadioColor(e){
     }
     
     document.getElementById(e.target.id).parentElement.classList.add('highlight')
+}
+
+
+function getMatchingCatsArray(e){
+    if(document.querySelector('input[type= "radio"]')){
+        const checkRadioInputArray = document.querySelector('input[type="radio"]:Checked')
+        console.log(checkRadioInputArray.value)
+    }
+    
+    
 }
 
 
