@@ -74,23 +74,3 @@ renderEmotionsRadios(catsData)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
