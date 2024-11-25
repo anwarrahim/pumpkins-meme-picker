@@ -23,7 +23,7 @@ function changeRadioColor(e){
 }
 
 
-function getMatchingCatsArray(e){
+function getMatchingCatsArray(){
     if(document.querySelector('input[type= "radio"]')){
         const selectedEmotion = document.querySelector('input[type="radio"]:checked').value
         const isGif = gifsOnlyOption.checked
