@@ -1,3 +1,3 @@
 # pumpkins-meme-picker
 
-<a href="https://anwarrahim.com/shoping-card-parentElement"> project link</a>
+<a href="https://anwarrahim.com/pumpkins-meme-picker"> project link</a>
